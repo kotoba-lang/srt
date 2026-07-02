@@ -1,2 +1,11 @@
-# srt
-KAMI clj-wgsl migration Phase 4 home (ADR-2607010930) — scaffold, Wave-2 port lands here
+# kotoba-lang/srt
+
+Kotoba DSL package for `kotoba.srt`.
+
+The implementation lives in `srt.core`; `kotoba.srt` is provided as a compatibility facade.
+
+## Test
+
+```sh
+clojure -M:test
+```
