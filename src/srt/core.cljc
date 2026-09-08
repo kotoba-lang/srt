@@ -10,7 +10,7 @@
          00:00:01,000 --> 00:00:04,000
          Hello world
      (srt cue…)  joins cues with the blank-line separator SubRip requires."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (defn- round-ms [sec]
   #?(:clj (Math/round (double (* sec 1000))) :cljs (js/Math.round (* sec 1000))))
