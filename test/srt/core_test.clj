@@ -3,7 +3,7 @@
    formatting (incl. fractional seconds, hours/minutes rollover), auto-numbered cues, multi-line cue
    text, and the blank-line cue separator."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [srt.core :as srt]))
 
 (deftest timestamps
