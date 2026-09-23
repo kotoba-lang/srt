@@ -2,7 +2,7 @@
   "Golden tests for kotoba.srt — the SubRip subtitle hiccup. They pin the HH:MM:SS,mmm timestamp
    formatting (incl. fractional seconds, hours/minutes rollover), auto-numbered cues, multi-line cue
    text, and the blank-line cue separator."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.lang.text :as str]
             [srt.core :as srt]))
 
